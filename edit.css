@@ -1,0 +1,43 @@
+*{
+   background-color:bisque; 
+}
+.main{
+   
+    background-color: antiquewhite;
+    width: 100%;
+    height: 100%;
+    justify-items: center;
+}
+#hd{
+    height: 10%;
+    width: 10%;
+    display: flex;
+    flex-direction: column;
+    text-align: justify;
+    justify-content: center;
+    padding: 5px;
+    
+    text-decoration: double;
+    text-wrap:nowrap;
+}
+.nav{
+    background: #5d3f3f;
+    width: 80%;
+    height: 80%;
+    padding: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    justify-items: center;
+    justify-self: center;
+}
+#box{
+    color: rgb(187, 226, 71);
+    display: flex;
+    flex-wrap: wrap;
+    height: 40vmin;
+    width: 40vmin;
+    justify-content: space-evenly;
+    margin: 0.3rem;
+    
+}

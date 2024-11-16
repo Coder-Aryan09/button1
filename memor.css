@@ -1,0 +1,28 @@
+*{
+    background-color: lightgreen;
+}
+#va{
+    display: flex;
+    margin: auto;
+    height: max-content;
+    width: 55%;
+}
+.next{
+    font-size: large;
+    text-transform: uppercase;
+    
+}
+a {
+    color: #1a73e8; /* Default color */
+    text-decoration: none; /* Remove underline */
+}
+a:hover {
+    color: #ff5722; /* Color on hover */
+    text-decoration: underline; /* Underline on hover */
+}
+a:visited {
+    color: #6f42c1; /* Color for visited link */
+}
+a:active {
+    color: #e91e63; /* Color when the link is clicked */
+}
